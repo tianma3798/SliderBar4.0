@@ -75,11 +75,25 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\CommonCss1.0.css" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Js\Common3.0.js" />
+    <Content Include="Js\jquery-1.8.2.js" />
+    <Content Include="Js\SliderBar4.0\img\arrow.png" />
+    <Content Include="Js\SliderBar4.0\SliderBar4.0.css" />
+    <Content Include="Js\SliderBar4.0\SliderBar4.0.js" />
+    <Content Include="Example\default1.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
