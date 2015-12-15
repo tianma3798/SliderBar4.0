@@ -603,7 +603,10 @@
         },
         //获取当前活动项 索引
         getIndex: function () {
-            return parseInt(this.elem.attr('data-index'));
+            var index = this.elem.attr('data-index');
+            if (isNaN(index))
+                return 0;
+            return parseInt(index);
         },
         //获取下一项索引
         getDataNext: function () {
